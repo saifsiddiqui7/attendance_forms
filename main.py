@@ -11,4 +11,4 @@ physicsData = {
     # Class Period
     'entry.816737777': '1 AP Physics C Mechanics',
 }
-requests.post(physics, physicsData)
+print(requests.post(physics, physicsData)) #<Response [401]>
