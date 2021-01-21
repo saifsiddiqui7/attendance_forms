@@ -1,7 +1,7 @@
 import requests
 
-url = 'https://docs.google.com/forms/d/e/1FAIpQLSexwRVI3f4daEVMIxYzVAG2UMXDsVAW6AbsMMekKgF7MvuWrA/formResponse'
-values = {
+physics = 'https://docs.google.com/forms/d/e/1FAIpQLSexwRVI3f4daEVMIxYzVAG2UMXDsVAW6AbsMMekKgF7MvuWrA/formResponse'
+physicsData = {
     # Last Name
     'entry.616020434': 'Siddiqui',
     # First Name
@@ -11,3 +11,4 @@ values = {
     # Class Period
     'entry.816737777': '1 AP Physics C Mechanics',
 }
+requests.post(physics, physicsData)
